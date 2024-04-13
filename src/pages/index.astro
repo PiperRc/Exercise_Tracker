@@ -11,6 +11,14 @@ import MainLayout from "../layouts/MainLayout.astro"
         </div>
 
         <div>
+          <label for="attire">Gi / No-gi</label>
+         <select name="attire" id="attire">
+          <option value="">Gi</option>
+          <option value="">No-Gi</option>
+         </select>
+        </div>
+
+        <div>
           <label for="time_start">Training Session Start Time</label>
           <input type="time" id="time_start" placeholder="time start" />
         </div>
@@ -19,6 +27,17 @@ import MainLayout from "../layouts/MainLayout.astro"
           <label for="time_end">Training Session End time Time</label>
           <input type="time" id="time_end" placeholder="time end" />
         </div>
+
+        <div>
+          <label for="rolling_time">Time spent rolling</label>
+         <input type="text" id="rolling_time">
+         <select name="" id="">
+          <option value="">hours</option>
+          <option value="">minutes</option>
+         </select>
+        </div>
+
+       
 
         <div>
           <label for="Notes">Notes:</label>
@@ -34,7 +53,8 @@ import MainLayout from "../layouts/MainLayout.astro"
       
       <section class="training-calc">
         <p>Hours trained today: <span></span></p>
-        <p>Notes: <span></span></p>
+        <p>Hours Spent Rolling: <span></span></p>
+       <p>Notes: <span></span></p>
       </section>
 
 </MainLayout>

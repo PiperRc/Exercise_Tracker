@@ -7,6 +7,12 @@
 html{
     font-size: 62.5%;
 }
+
+
+:root{
+   --top-margin:3rem;
+   --bottom-margin:2rem;
+}
 main{
     font-size:2rem ;
 }
@@ -19,11 +25,17 @@ label,input,textarea{
 
 
 .training-input div{
-    margin-bottom:2rem;
+    margin-bottom: var(--bottom-margin);
 }
+
+
 
 textarea{
     width:80%;
+}
+
+.training-calc{
+    margin-top: var(--top-margin);
 }
 
 /* .training-calc{

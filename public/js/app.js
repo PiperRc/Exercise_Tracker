@@ -8,7 +8,7 @@ let time_end=document.querySelector('#time_end');
 
 // calculate and display data entered
 let hours_trained= document.querySelector('.training-calc p:nth-child(1) span');
-let notes_calc=document.querySelector('.training-calc p:nth-child(2) span');
+let notes_calc=document.querySelector('.training-calc p:nth-child(3) span');
 
 function notes(){
     notes_calc.innerHTML=notes_enter.value;
