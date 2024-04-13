@@ -1,0 +1,40 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+---
+
+<MainLayout>
+
+	<section class="training-input">
+        <div>
+          <label for="day">Date:</label>
+          <input type="date" id="day" placeholder="dd/mm/yyyy" />
+        </div>
+
+        <div>
+          <label for="time_start">Training Session Start Time</label>
+          <input type="time" id="time_start" placeholder="time start" />
+        </div>
+
+        <div>
+          <label for="time_end">Training Session End time Time</label>
+          <input type="time" id="time_end" placeholder="time end" />
+        </div>
+
+        <div>
+          <label for="Notes">Notes:</label>
+          <textarea name="" id="notes" rows="15" placeholder="Notes">
+          </textarea>
+        </div>
+
+
+        <button>
+            ENTER
+        </button>
+      </section>
+      
+      <section class="training-calc">
+        <p>Hours trained today: <span></span></p>
+        <p>Notes: <span></span></p>
+      </section>
+
+</MainLayout>

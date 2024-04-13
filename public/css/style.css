@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+main{
+    font-size:2rem ;
+}
+
+
+label,input,textarea{
+    display: block;
+}
+
+
+
+.training-input div{
+    margin-bottom:2rem;
+}
+
+textarea{
+    width:80%;
+}
+
+/* .training-calc{
+    display: none;
+} */
